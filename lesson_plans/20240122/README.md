@@ -66,22 +66,30 @@ There is no resource on AWK that is
 - (4) assumes no Linux experience
 ```
 
-My ideal lesson plan:
+So, I ended up to make up all course material.
 
-- print a file
-- `$0`: print the whole line
-- `$1`: print the first column
-- `NF`:  print the number of columns
-- `$NF`:  print the last column
-- `NF-1`:  print the number of columns minus 1
-- `$(NF-1)`:  print the one-but-last column
-- conditionals, e.g. `$1 == "apple"`, `$2 < 42`
-- 
+## Helper instructions
+
+I added helper instructions in the exercise procedure.
 
 ## Schedule
 
-In teaching cycles:
+Begin:
 
-- What is AWK?
-- Install AWK
+- Ask to turn on cameras
+- Present 'Who is Richel'
+- Repeat to turn on cameras
+- Poll: Who knows what grep is?
+- Poll: Who knows what sed is?
+- Poll: Who knows what C is?
+- Give overview of course
+- Ask to associate on 'AWK is'
 
+Main:
+
+- Start cycles
+
+End:
+
+- Summarize
+- Preview Day 2

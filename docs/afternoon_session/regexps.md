@@ -39,6 +39,8 @@ Knowing regular expressions allows us to search for patterns in a text.
 
 ## Exercises
 
+See the exercise procedure [here](../misc/exercise_procedure.md).
+
 ### Exercise 1: practice regular expressions
 
 !!!- info "Learning objectives"
@@ -204,3 +206,9 @@ Using `awk` only:
 - find all the satellites that end with `on` without a vowel (i.e. `aeoui`) 
   before `on`. For example: `moon` is invalid, as it has the vowel `o` before `on`
 - find all the satellites with a number
+
+Think:
+
+- There are two ways to look for regex matches on a whole sentence
+  (`$0 ~ /my_regex/` and `/my_regex/`). Why is it useful to know
+  both ways?

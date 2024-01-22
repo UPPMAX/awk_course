@@ -2,14 +2,15 @@
 
 !!!- info "Learning objectives"
 
-    - run AWK without existing knowledge
-    - see where AWK shines
+    - be able to do something at the start of an AWK script
+    - be able to do something at the end of an AWK script
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    - .
+    - Learners are able to do something at the start of an AWK script
+    - Learners are able to do something at the end of an AWK script
 
     Lesson plan:
 
@@ -20,11 +21,14 @@
 
 ## Overview
 
-In this session, we run AWK.
+Sometimes one needs to do things before the actual calculation starts.
+Also, sometimes one needs to do things after the actual calculation has run.
+
+Here we do things at the start and end of an AWK script.
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -118,6 +122,10 @@ Confirm that this is true.
 
 ### Exercise 2: explore data
 
+!!!- info "Learning objectives"
+
+    - practice using the `BEGIN` and `END` blocks
+
 #### Download the data
 
 In a terminal, do:
@@ -162,3 +170,9 @@ Using `awk` only:
 - show a text 'Prices (in USD) of diamonds with a fair and worst color:'.
   Then show the price of the diamonds that have a fair cut and the worst color, while skipping the header.
   Then show the text 'Done!'
+
+Think:
+
+- these practice questions are only about printing.
+  Could you already guess where `BEGIN` and `END` 
+  become more useful?

@@ -27,7 +27,7 @@ In this session, we learn about AWK.
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Simple examples 1
 

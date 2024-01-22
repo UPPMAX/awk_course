@@ -23,7 +23,7 @@ In this session, we learn about the tools similar to `awk`.
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: when to use AWK?
 

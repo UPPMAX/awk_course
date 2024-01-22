@@ -8,10 +8,17 @@ nav:
     - Filtering on values: morning_session/filtering_on_values.md
     - BEGIN and END: morning_session/begin_and_end.md
     - Variables: morning_session/variables.md
+    - Associative arrays: morning_session/associative_arrays.md
+    - Working with comma-separated values: morning_session/working_with_csvs.md
   - Afternoon Session:
     - Overview: afternoon_session/overview.md
+    - Regular expressions: afternoon_session/regexps.md
+    - What is AWK: afternoon_session/what_is_awk.md
+    - Basic Linux: afternoon_session/basic_linux.md
+    - Related tools: afternoon_session/related_tools.md
   - Miscelleneous:
     - FAQ: misc/faq.md
+    - Exercise procedure: misc/exercise_procedure.md
 
 theme:
   name: material

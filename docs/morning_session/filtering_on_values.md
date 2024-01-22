@@ -19,11 +19,14 @@
 
 ## Overview
 
-In this session, we run AWK.
+AWK is great for selecting elements of tabular data.
+
+In this session, we use AWK to select elements in tabular data.
+Selecting elements, in this case, is also called 'filtering'.
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -62,8 +65,20 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk '$2 < 1.0 { print }' coins.txt
 ```
 
-In English, this is: 'For every line where the first column matches `gold`, 
+In English, this is: 'For every line where the second column is less than one, 
 show the whole line'
+
+Confirm that this is true.
+
+#### show the first line
+
+In a terminal, in the same folder as where the data is downloaded, do:
+
+```
+awk 'NR == 1 { print }' coins.txt
+```
+
+In English, this is: 'If the line number is one, print the line'
 
 Confirm that this is true.
 
@@ -119,7 +134,6 @@ For every line where the second column is less than 1.0,
 print 'Light:' and the line. 
 
 Confirm that this is true.
-
 
 ### Exercise 2: printing
 
@@ -190,3 +204,8 @@ Using `awk` only:
 - show the cut of the diamonds that have a price above $18000 USD, while skipping the header
 - show the price of the diamonds that have a fair cut and the worst color, while skipping the header
 - show the line number of the diamonds that have a price below $400 USD, while skipping the header
+
+Explain:
+
+- although this dataset has a header, in not all exercises `NR > 1` was needed.
+  When can `NR > 1` be omitted safely?

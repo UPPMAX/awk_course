@@ -2,7 +2,7 @@
 
 !!!- info "Learning objectives"
 
-    - Practice some basic Linux commands: `echo`, `printf`, `cat`
+    - Practice some basic Linux commands: `echo`, `printf`, `cat`, `wc`, `rev`
     - Practice with Linux pipes
     - Use the output of one process as the input for `awk`
 
@@ -10,8 +10,7 @@
 
     Teaching goals are:
 
-    - The learners have practiced with some regular expressions
-    - The learners have used some online websites to learn regular expressions
+    - The learners have practiced with UNIX pipes
 
     Lesson plan:
 
@@ -29,7 +28,38 @@ The UPPMAX clusters, running Linux, also have `awk`.
 
 Here we discuss the most relevant Linux programs and terms.
 
+```mermaid
+flowchart TD
+
+  subgraph basic_linux[Basic Linux]
+    awk
+    pipes
+    echo
+    printf
+    stdin
+    files[Files]
+    input[Input]
+    cat
+    editor[Text editor]
+    wc
+    rev
+    tr
+  end
+
+  %% Basic Linux
+  stdin --> |need to know| pipes
+  printf --> |need to know| echo
+  pipes --> |need to know| printf
+  files --> |need to know| cat
+  files --> |need to know| editor
+  files --> |a type of| input
+  stdin --> |a type of| input
+  awk --> |reads| input
+```
+
 ## Exercises
+
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: `echo`
 
@@ -159,9 +189,10 @@ Do, in a terminal:
 
 - `echo hello world | rev`
 - `echo hello world | rev | rev` 
+- `cat why_awk.txt | wc` 
 - `cat why_awk.txt | rev` 
+- `cat why_awk.txt | wc | rev` 
 - `cat -n why_awk.txt | rev` 
 - `rev --version | rev` 
 
 Express in your own words: what does the pipe symbol `|` do?
-

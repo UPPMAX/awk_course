@@ -2,14 +2,13 @@
 
 !!!- info "Learning objectives"
 
-    - run AWK without existing knowledge
-    - see where AWK shines
+    - use a variable
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    - .
+    - Learners have practiced using a variable
 
     Lesson plan:
 
@@ -20,11 +19,12 @@
 
 ## Overview
 
-In this session, we run AWK.
+Sometimes we need AWK to remember things,
+for example, when summing values
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -116,8 +116,10 @@ Using `awk` only:
 
 - show the number of diamonds in the dataset
 - show the number of columns in the dataset
-- show the average price of the diamonds
+- show the lowest price of all the diamonds
+- show the average price of all the diamonds
+- show the average price of all the diamonds with an ideal cut
 - show the total weight of all diamonds combined in kilos, 
   1 carat is 0.0002 kilo
-- show the prices of the diamonds in Swedish kroner, 
-  assume 1 US dollar is 10.47 Swedish kroner
+- show the prices of all the diamonds together, in Swedish kroner.
+  Assume 1 US dollar is 10.47 Swedish kroner

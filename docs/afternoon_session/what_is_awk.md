@@ -29,7 +29,7 @@ AWK is a interpreted programming language, that processes tabular data.
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: what is AWK?
 
@@ -111,8 +111,8 @@ and why they are true/false:
 
         %% Give a white background to all nodes, instead of a transparent one
         %% classDef node fill:#fff,color:#000,stroke:#000
+        classDef focus_node fill:#fff,color:#000,stroke-width:4px
 
-        AWK
 
         subgraph interpreters[Interpreters]
         awk
@@ -137,17 +137,10 @@ and why they are true/false:
             Julia
             Python
             R
+            AWK:::focus_node
           end
         end
 
-        %% style programming_languages fill:#fff,color:#000,stroke:#000
-        %% style interpreted_languages fill:#fff,color:#000,stroke:#000
-        %% style compiled_languages fill:#fff,color:#000,stroke:#000
-        %% style interpreters fill:#fff,color:#000,stroke:#000
-
-        AWK --> |is a | programming_languages
-        AWK --> |is a | interpreted_language
-        AWK --> |is run by| interpreters
         interpreted_language --> |is run by| interpreter
         interpreted_language <--> |is not| compiled_language
         awk --> |is a| interpreter
@@ -157,16 +150,13 @@ and why they are true/false:
         Julia --> |is a| interpreted_language
         Python --> |is a| interpreted_language
         R --> |is a| interpreted_language
+        AWK --> |is a| interpreted_language
 
         C --> |is a| compiled_language
         Cpp --> |is a| compiled_language
         Fortran --> |is a| compiled_language
         Go --> |is a| compiled_language
         Rust --> |is a| compiled_language
-
-        AWK ~~~ C
-        AWK ~~~ programming_languages
-        AWK ~~~ R    
     ```
 
 ## Links

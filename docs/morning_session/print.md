@@ -27,13 +27,13 @@
 
 ## Overview
 
-AWK is great for creating output.
+AWK is great for printing parts of tabular data.
 
-In this session, we use AWK to create output.
+In this session, we use AWK to print.
 
 ## Exercises
 
-See the exercise procedure [here](exercise_procedure.md).
+See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -53,11 +53,13 @@ to download a file called `coins.txt`.
 
 This file is a tab-separated file, with the following columns:
 
-- 1: metal 
-- 2: weight in ounces 
-- 3: date minted 
-- 4: country of origin 
-- 5: description
+index|description
+-----|-----------------
+1    |metal
+2    |weight in ounces
+3    |data minted
+4    |country of origin
+5    |description
 
 #### `print`
 
@@ -107,7 +109,7 @@ In English, this is: 'For every line, print the first column and second column'.
 
 Confirm that this is true.
 
-#### Multiple columns seperated by a space
+#### Multiple columns separated by a space
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -238,4 +240,5 @@ Answer the question:
 - At the start of this session, **two ** ways to print all lines
   were shown (`awk '{ print }' coins.txt` and `awk '{ print $0 }' coins.txt`).
   Although they do exactly the same thing, why were both ways shown?
-
+- All the AWK commands are put in single quotes. Why would that be?
+  Would double quotes work too?
