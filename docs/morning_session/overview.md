@@ -10,7 +10,11 @@ Time          | Topic
 10:00-10:15   | Break
 10:15-11:00   | [BEGIN and END](begin_and_end.md), [variables](variables.md)
 11:00-11:15   | Break
-11:15-12:00   | [Associative arrays](associative_arrays.md), [working with comma-separated values](working_with_csvs.md)
+11:15-12:00   | [working with comma-separated values](working_with_csvs.md), [Associative arrays](associative_arrays.md)
+
+> The times in this schedules are only guidelines.
+> The pace of the learners determines the speed of
+> going through the course material.
 
 ## Overview
 
@@ -33,6 +37,16 @@ flowchart TD
   associative_arrays --> |needs| variables
   filtering_on_regex --> |needs| filtering_on_values
 ```
+
+
+Description              |Syntax
+-------------------------|---------------------
+Do an action             |`{ [action] }`
+Filtering                |`[condition] { [action] }`
+Multiple filters         |`[condition_1] { [action_1] } [condition_2] { [action_2] }`
+Actions at begin and end |`BEGIN { [action]} [condition] { [action] } END { [action]}`
+
+> Overview of the Awk syntax built-up
 
 ## Links
 

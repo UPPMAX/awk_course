@@ -19,6 +19,10 @@ Time          | Topic
 15:00-16:00   | Break
 15:15-16:00   | [Related tools](related_tools.md)
 
+> The times in this schedules are only guidelines.
+> The pace of the learners determines the speed of
+> going through the course material.
+
 Extra material:
 
 - [Built-in functions](https://learnbyexample.github.io/learn_gnuawk/built-in-functions.html)

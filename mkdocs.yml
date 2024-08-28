@@ -8,8 +8,8 @@ nav:
     - Filtering on values: morning_session/filtering_on_values.md
     - BEGIN and END: morning_session/begin_and_end.md
     - Variables: morning_session/variables.md
-    - Associative arrays: morning_session/associative_arrays.md
     - Working with comma-separated values: morning_session/working_with_csvs.md
+    - Associative arrays: morning_session/associative_arrays.md
   - Afternoon Session:
     - Overview: afternoon_session/overview.md
     - Regular expressions: afternoon_session/regexps.md
