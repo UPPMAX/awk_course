@@ -1,6 +1,6 @@
 # What is AWK
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to understand what AWK is
     - to understand the difference between AWK and Awk and `awk`
@@ -33,7 +33,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: what is AWK?
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to understand what AWK is
     - to understand the difference between AWK and Awk and `awk`

@@ -1,6 +1,6 @@
 # Regular expressions
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice regular expressions
     - Use two online websites to practice using regular expressions
@@ -43,7 +43,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: practice regular expressions
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice the basics of regular expressions
 
@@ -51,7 +51,7 @@ Browse to <https://regexlearn.com> and do exercises 1 to and including 16.
 
 ### Exercise 2: practice regular expressions with `regex101.com`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use a character class
 
@@ -90,7 +90,7 @@ qat
 
 ### Exercise 3: practice regular expressions with `regextester.com`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use a word anchor
 
@@ -124,7 +124,7 @@ bookoos
 
 ### Exercise 4: confirming things are true
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - experience the regular expressions in AWK
 

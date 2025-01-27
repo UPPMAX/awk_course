@@ -4,7 +4,7 @@
 
 ### Exercise 1: a filter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     * Use a filter
 
@@ -18,7 +18,7 @@ Answer these questions of that same chapter:
 
 ### Exercise 2: a filter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     * Rehearse using a filter
 

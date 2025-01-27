@@ -1,6 +1,6 @@
 # When to use AWK
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Hear about the tools similar to `awk`
 
@@ -27,7 +27,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: when to use AWK?
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Hear about the tools similar to `awk`
 

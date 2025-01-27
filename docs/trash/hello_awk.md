@@ -1,6 +1,6 @@
 # Hello AWK
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to run an AWK interpreter
     - to run AWK from the command-line
@@ -33,7 +33,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: run an AWK script
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to run an AWK script
 
@@ -49,7 +49,7 @@ Then do:
 
 ### Exercise 2: run AWK from the command-line using single quotes
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to run AWK from the command-line
 
@@ -78,7 +78,7 @@ What does the AWK code do?
 
 ### Exercise 3: run AWK from the command-line using double quotes
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to experience why single quote is most often used
 
@@ -110,7 +110,7 @@ Which theoretical event would cause this preference to change to use single quot
 
 ### Exercise 4: run AWK on an input file
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - to run AWK on an input file
 

@@ -1,6 +1,6 @@
 # Associative arrays
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - work with associative arrays
 
@@ -31,7 +31,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - experience variables
 

@@ -1,6 +1,6 @@
 # AWK as a filter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use AWK as a filter
     - Learn the regex metacharacter for 'Matches the starting position within the string'
@@ -34,7 +34,7 @@ Here we use AWK to select lines that follow a simple regular expression.
 
 ### Exercise 1: a filter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     * Use a filter
 
@@ -48,7 +48,7 @@ Answer these questions of that same chapter:
 
 ### Exercise 2: a filter with a metacharacter
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Rehearse using AWK as a filter
     - Learn the regex metacharacter for 'Matches the starting position within the string'

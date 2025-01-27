@@ -1,6 +1,6 @@
 # Basic Linux
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice some basic Linux commands: `echo`, `printf`, `cat`, `wc`, `rev`
     - Practice with Linux pipes
@@ -63,7 +63,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: `echo`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `echo`
 
@@ -93,7 +93,7 @@ Express in your own words: what does `echo` do?
 
 ### Exercise 2: `printf`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `printf`
 
@@ -125,7 +125,7 @@ Express in your own words: what does `printf` do?
 
 ### Exercise 3: `cat`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `cat`
 
@@ -158,7 +158,7 @@ Express in your own words: what does `cat` do?
 
 ### Exercise 4: `wc`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `wc`
 
@@ -175,7 +175,7 @@ Express in your own words: what does `wc` do?
 
 ### Exercise 5: a UNIX pipeline
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use a pipeline
 

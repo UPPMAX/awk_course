@@ -1,6 +1,6 @@
 # Filtering on values
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - filter based on column values
 
@@ -30,7 +30,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - experience the ways to filter on column values of `awk`
 

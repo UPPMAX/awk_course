@@ -1,6 +1,6 @@
 # Simple examples
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - .
 
@@ -31,7 +31,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: Simple examples 1
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `awk` for the first time
     - Do a simple match
@@ -93,7 +93,7 @@ Answer the question.
 
 ### Exercise 1: Simple examples 2
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use the `awk` `&&` operator
     - Maybe use a Linux pipe
@@ -125,7 +125,7 @@ Answer the question.
 
 ### Exercise 1: Simple examples 3
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use the `awk` `!` operator
 
@@ -154,7 +154,7 @@ Answer the question.
 
 ### Exercise 1: Simple examples 4
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Rehearse that `awk` works on tab-separated values
 

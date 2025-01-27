@@ -1,6 +1,6 @@
 # Related tools
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Hear about the tools similar to `awk`
 
@@ -75,7 +75,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: `cut`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `cut`
 
@@ -101,7 +101,7 @@ Express in your own words: what does `cut` do?
 
 ### Exercise 2: `grep`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `grep`
 
@@ -127,7 +127,7 @@ Express in your own words: what does `grep` do?
 
 ### Exercise 3: `sed`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `sed`
 
@@ -154,7 +154,7 @@ Express in your own words: what does `sed` do?
 
 ### Exercise 4: `tr`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `tr`
 
@@ -173,7 +173,7 @@ Express in your own words: what does `tr` do?
 
 ### Exercise 5: `wc`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Use `wc`
 

@@ -1,6 +1,6 @@
 # BEGIN and END
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - be able to do something at the start of an AWK script
     - be able to do something at the end of an AWK script
@@ -32,7 +32,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - experience the `BEGIN` and `END` blocks
 
@@ -122,7 +122,7 @@ Confirm that this is true.
 
 ### Exercise 2: explore data
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - practice using the `BEGIN` and `END` blocks
 

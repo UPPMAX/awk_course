@@ -1,6 +1,6 @@
 # print
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - print a line
     - print a column of a line
@@ -37,7 +37,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - experience the many printing statements of `awk`
 
