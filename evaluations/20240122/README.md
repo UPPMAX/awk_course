@@ -1,5 +1,7 @@
 # Evaluations
 
+- Reflections: [Richel](../../reflections/20240122/README.md)
+
 ## From email
 
 > I want to say that, at least the first day, 

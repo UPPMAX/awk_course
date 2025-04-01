@@ -1,5 +1,7 @@
 # Awk workshop 2024.08.{22,23} - evaluation
 
+- Reflections: [Richel](../../reflections/20240822/README.md)
+
 This is an evaluation of the Awk course taught in a different way,
 yet with the same evaluation questions.
 This is used to compare the two setups.
