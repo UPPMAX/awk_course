@@ -1,7 +1,7 @@
 
 # Welcome to the UPPMAX AWK course
 
-![UU logo](assets/UU_logo_color.svg)
+![UU logo](assets/UU_logo_color.png)
 
 This [course](https://github.com/UPPMAX/awk_course) 
 and introduces the foundations of the AWK programming language.
