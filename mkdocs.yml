@@ -1,4 +1,8 @@
 site_name: AWK course
+repo_url: https://github.com/UPPMAX/awk_course
+edit_uri: blob/master/docs/
+
+
 
 nav:
   - Start: index.md
