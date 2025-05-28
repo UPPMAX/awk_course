@@ -1,4 +1,3 @@
-
 # Welcome to the UPPMAX AWK course
 
 ![UU logo](assets/UU_logo_color_232_x_218.png)
