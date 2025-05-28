@@ -130,7 +130,7 @@ bookoos
 
 In a terminal, do:
 
-```
+```bash
 wget https://github.com/devstronomy/nasa-data-scraper/raw/master/data/csv/satellites.csv
 ```
 
@@ -157,7 +157,7 @@ We do not need to know what all these things mean.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk -F "," '$2 ~ /on/ { print $0 } ' satellites.csv
 ```
 
@@ -171,7 +171,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk -F "," '$0 ~ /rth/ { print $0 } ' satellites.csv
 ```
 
@@ -185,7 +185,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk -F "," '/rth/ { print $0 } ' satellites.csv
 ```
 

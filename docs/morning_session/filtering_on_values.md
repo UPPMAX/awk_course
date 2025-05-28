@@ -26,7 +26,7 @@ Selecting elements, in this case, is also called 'filtering'.
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -34,17 +34,21 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - experience the ways to filter on column values of `awk`
 
-#### Download the data
+#### 1.1. Download the data
 
 In a terminal, do:
 
-```
+<!-- markdownlint-disable MD013 --><!-- URL cannot be split up over lines, hence will break 80 characters per line -->
+
+```bash
 wget https://pmitev.github.io/to-awk-or-not/data/coins.txt
 ```
 
+<!-- markdownlint-enable MD013 -->
+
 to download a file called `coins.txt`.
 
-#### match on equality
+#### 1.2. match on equality
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -57,7 +61,7 @@ show the whole line'.
 
 Confirm that this is true.
 
-#### use less-then operator
+#### 1.3. use less-then operator
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -70,7 +74,7 @@ show the whole line'
 
 Confirm that this is true.
 
-#### show the first line
+#### 1.4. show the first line
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -82,7 +86,7 @@ In English, this is: 'If the line number is one, print the line'
 
 Confirm that this is true.
 
-#### skip a first line
+#### 1.5. skip a first line
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -94,7 +98,7 @@ In English, this is: 'If the line number is bigger than one, print the line'
 
 Confirm that this is true.
 
-#### use `&&` operator
+#### 1.6. use `&&` operator
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -107,7 +111,7 @@ In English, this is: 'For every line where the first column matches `gold`
 
 Confirm that this is true.
 
-#### use `||` operator
+#### 1.7. use `||` operator
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -120,7 +124,7 @@ In English, this is: 'For every line where the first column matches `gold`
 
 Confirm that this is true.
 
-#### multiple conditions
+#### 1.8. multiple conditions
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -137,23 +141,29 @@ Confirm that this is true.
 
 ### Exercise 2: printing
 
-#### Download the data
+#### 2.1. Download the data
 
 In a terminal, do:
 
-```
+<!-- markdownlint-disable MD013 --><!-- URL cannot be split up over lines, hence will break 80 characters per line -->
+
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 to download a file called `diamonds_no_header.tsv`.
 
 This file is a tab-separated file about diamonds and
 is part of the `ggplot2` R package.
 
-* [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
-* [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
+- [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
+- [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 index|name   |description
 -----|-------|------------------------------------------------------------------
@@ -168,23 +178,29 @@ index|name   |description
 9    |y      |width in mm (0--58.9)
 10   |z      |depth in mm (0--31.8)
 
-#### Explore the data
+<!-- markdownlint-enable MD013 -->
+
+#### 2.2. Explore the data
 
 Using `awk` only:
 
-* show the cut of the diamonds that have a price above $18000 USD
-* show the price of the diamonds that have a fair cut and the worst color
-* show the line number of the diamonds that have a price below $400 USD
+- show the cut of the diamonds that have a price above $18000 USD
+- show the price of the diamonds that have a fair cut and the worst color
+- show the line number of the diamonds that have a price below $400 USD
 
 ### Exercise 3: printing a complete dataset
 
-#### Download the data
+#### 3.1. Download the data
 
 In a terminal, do:
 
-```
+<!-- markdownlint-disable MD013 --><!-- URL cannot be split up over lines, hence will break 80 characters per line -->
+
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 to download a file called `diamonds.tsv`.
 
@@ -192,20 +208,23 @@ It is the same dataset as used earlier.
 However, it has a first line, which is called a header,
 which describes the data.
 
-#### Explore the data
+#### 3.2. Explore the data
 
 Using `awk` only:
 
-* show the number of lines, in any clumsy way
-* show the number of columns, in any clumsy way
-* show only the first line
-* show only the first ten lines
-* show the prices of all diamonds, while skipping the header
-* show the cut of the diamonds that have a price above $18000 USD, while skipping the header
-* show the price of the diamonds that have a fair cut and the worst color, while skipping the header
-* show the line number of the diamonds that have a price below $400 USD, while skipping the header
+- show the number of lines, in any clumsy way
+- show the number of columns, in any clumsy way
+- show only the first line
+- show only the first ten lines
+- show the prices of all diamonds, while skipping the header
+- show the cut of the diamonds that have a price above $18000 USD,
+  while skipping the header
+- show the price of the diamonds that have a fair cut and the worst color,
+  while skipping the header
+- show the line number of the diamonds that have a price below $400 USD,
+  while skipping the header
 
 Explain:
 
-* although this dataset has a header, in not all exercises `NR > 1` was needed.
+- although this dataset has a header, in not all exercises `NR > 1` was needed.
   When can `NR > 1` be omitted safely?

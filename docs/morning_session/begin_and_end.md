@@ -14,10 +14,10 @@
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
 ## Overview
 
@@ -40,7 +40,8 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 In a terminal, do:
 
-```
+
+```bash
 wget https://pmitev.github.io/to-awk-or-not/data/coins.txt
 ```
 
@@ -91,7 +92,8 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk '{ print $0 } END { print "Done!" }' coins.txt
 ```
 
-In English, this is: 'For every line, print the line. In the end, print 'Done!''.
+In English, this is: 'For every line, print the line.
+In the end, print 'Done!''.
 
 Confirm that this is true.
 
@@ -103,7 +105,8 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk 'BEGIN { print "Start!" } { print $0 } END { print "Done!" }' coins.txt
 ```
 
-In English, this is: 'At the start, print 'Start!'. Then, for every line, print the line. In the end, print 'Done!''.
+In English, this is: 'At the start, print 'Start!'.
+Then, for every line, print the line. In the end, print 'Done!''.
 
 Confirm that this is true.
 
@@ -130,19 +133,25 @@ Confirm that this is true.
 
 In a terminal, do:
 
-```
+<!-- markdownlint-disable MD013 --><!-- URL cannot be split up over lines, hence will break 80 characters per line -->
+
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 to download a file called `diamonds.tsv`.
 
 This file is a tab-separated file about diamonds and
 is part of the `ggplot2` R package.
 
-* [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
-* [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
+- [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
+- [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 index|name   |description
 -----|-------|------------------------------------------------------------------
@@ -157,22 +166,27 @@ index|name   |description
 9    |y      |width in mm (0--58.9)
 10   |z      |depth in mm (0--31.8)
 
+<!-- markdownlint-enable MD013 -->
+
 #### Explore the data
 
 Using `awk` only:
 
-* show a text 'Number of lines:', then print the number of lines
-* show a text 'Number of columns:', then print the number of columns
-* show a text 'Header:', then print only the header
-* show a text 'Prices of first five diamonds:', then print the prices of the first five diamonds, while skipping the header
-* show the line number of the diamonds that have a price below $400 USD, while skipping the header.
+- show a text 'Number of lines:', then print the number of lines
+- show a text 'Number of columns:', then print the number of columns
+- show a text 'Header:', then print only the header
+- show a text 'Prices of first five diamonds:',
+  then print the prices of the first five diamonds, while skipping the header
+- show the line number of the diamonds that have a price below $400 USD,
+  while skipping the header.
   At the end, print "... those were he cheapest diamonds"
-* show a text 'Prices (in USD) of diamonds with a fair and worst color:'.
-  Then show the price of the diamonds that have a fair cut and the worst color, while skipping the header.
+- show a text 'Prices (in USD) of diamonds with a fair and worst color:'.
+  Then show the price of the diamonds that have a fair cut and the worst color,
+  while skipping the header.
   Then show the text 'Done!'
 
 Think:
 
-* these practice questions are only about printing.
+- these practice questions are only about printing.
   Could you already guess where `BEGIN` and `END`
   become more useful?

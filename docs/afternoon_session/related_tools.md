@@ -85,7 +85,7 @@ Read:
 
 In a terminal, do:
 
-```
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds_raw.csv
 ```
 
@@ -111,7 +111,7 @@ Read:
 
 In a terminal, do:
 
-```
+```bash
 wget https://github.com/devstronomy/nasa-data-scraper/raw/master/data/csv/satellites.csv
 ```
 
@@ -137,7 +137,7 @@ Read:
 
 In a terminal, do:
 
-```
+```bash
 wget https://www.gutenberg.org/cache/epub/1787/pg1787.txt
 ```
 
@@ -183,7 +183,7 @@ Read:
 
 In a terminal, do:
 
-```
+```bash
 wget https://www.gutenberg.org/cache/epub/1787/pg1787.txt
 ```
 

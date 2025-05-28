@@ -33,7 +33,7 @@ In this session, we use AWK to print.
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -41,11 +41,11 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - experience the many printing statements of `awk`
 
-#### Download the data
+#### 1.1. Download the data
 
 In a terminal, do:
 
-```
+```bash
 wget https://pmitev.github.io/to-awk-or-not/data/coins.txt
 ```
 
@@ -61,7 +61,7 @@ index|description
 4    |country of origin
 5    |description
 
-#### `print`
+#### 1.2. `print`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -73,7 +73,7 @@ In English, this is: 'For every line, print the whole line'.
 
 Confirm that this is true.
 
-#### `print` and `$0`
+#### 1.3. `print` and `$0`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -85,7 +85,7 @@ In English, this is: 'For every line, print the whole line'.
 
 Confirm that this is true.
 
-#### `$1`
+#### 1.4. `$1`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -97,7 +97,7 @@ In English, this is: 'For every line, print the first column'.
 
 Confirm that this is true.
 
-#### Multiple columns
+#### 1.5. Multiple columns
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -109,7 +109,7 @@ In English, this is: 'For every line, print the first column and second column'.
 
 Confirm that this is true.
 
-#### Multiple columns separated by a space
+#### 1.6. Multiple columns separated by a space
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -122,7 +122,7 @@ separated by a space'.
 
 Confirm that this is true.
 
-#### `NF`
+#### 1.7. `NF`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -134,7 +134,7 @@ In English, this is: 'For every line, print the number of columns'.
 
 Confirm that this is true.
 
-#### `$NF`
+#### 1.8. `$NF`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -146,7 +146,7 @@ In English, this is: 'For every line, print the last column'.
 
 Confirm that this is true.
 
-#### `NR`
+#### 1.9. `NR`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -158,7 +158,7 @@ In English, this is: 'For every line, print that line's number'.
 
 Confirm that this is true.
 
-#### Convert
+#### 1.10. Convert
 
 The second column shows the weight in ounces.
 One ounce is 28.349523125 gram.
@@ -174,7 +174,7 @@ In English, this is: 'For every line, show the second column multiplied by 28.34
 
 Confirm that this is true.
 
-#### Add text
+#### 1.11. Add text
 
 The second column shows the weight in ounces.
 One ounce is 28.349523125 gram.
@@ -193,7 +193,7 @@ Confirm that this is true.
 
 ### Exercise 2: explore data
 
-#### Download the data
+#### 2.1. Download the data
 
 In a terminal, do:
 
@@ -211,6 +211,8 @@ is part of the `ggplot2` R package.
 
 The dataset has the following columns:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 index|name   |description
 -----|-------|------------------------------------------------------------------
 1    |carat  |weight of the diamond (0.2--5.01)
@@ -224,7 +226,9 @@ index|name   |description
 9    |y      |width in mm (0--58.9)
 10   |z      |depth in mm (0--31.8)
 
-#### Explore the data
+<!-- markdownlint-enable MD013 -->
+
+#### 2.2. Explore the data
 
 Using `awk` only:
 

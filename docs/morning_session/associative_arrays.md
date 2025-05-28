@@ -39,7 +39,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 In a terminal, do:
 
-```
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds_no_header.tsv
 ```
 
@@ -49,7 +49,7 @@ to download a file called `diamonds_no_header.tsv`.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'BEGIN { counts["ideal"] = 12345 } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
 
@@ -63,7 +63,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ counts[$2] = counts[$2] + 1 } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
 
@@ -78,7 +78,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ counts[$2] += 1 } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
 
@@ -93,7 +93,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ counts[$2]++ } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
 
@@ -108,7 +108,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ ++counts[$2] } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
 
@@ -123,7 +123,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ counts[$2]++ } END { for (count in counts) print count }' diamonds_no_header.tsv
 ```
 
@@ -137,7 +137,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ counts[$2]++ } END { for (count in counts) print counts[count] }' diamonds_no_header.tsv
 ```
 
@@ -151,7 +151,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ counts[$2]++ } END { for (count in counts) print count ": " counts[count] }' diamonds_no_header.tsv
 ```
 
@@ -167,7 +167,7 @@ Confirm that this is true.
 
 In a terminal, do:
 
-```
+```bash
 wget https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/mpg.csv
 ```
 

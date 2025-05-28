@@ -38,12 +38,16 @@ flowchart TD
   filtering_on_regex --> |needs| filtering_on_values
 ```
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Description              |Syntax
 -------------------------|---------------------
 Do an action             |`{ [action] }`
 Filtering                |`[condition] { [action] }`
 Multiple filters         |`[condition_1] { [action_1] } [condition_2] { [action_2] }`
 Actions at begin and end |`BEGIN { [action]} [condition] { [action] } END { [action]}`
+
+<!-- markdownlint-enable MD013 -->
 
 > Overview of the Awk syntax built-up
 
