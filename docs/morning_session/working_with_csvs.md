@@ -49,7 +49,7 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk 'NR < 10 { print $1 }' diamonds_raw.csv
 ```
 
-In English, this is: 'For every line with a line number less than 10, 
+In English, this is: 'For every line with a line number less than 10,
 print the first column's value'.
 
 Confirm that this is true if the columns are separated by a tab.
@@ -63,7 +63,7 @@ awk -F "," 'NR < 10 { print $1 }' diamonds_raw.csv
 ```
 
 In English, this is: 'Columns are separated by a comma.
-For every line with a line number less than 10, 
+For every line with a line number less than 10,
 print the first column's value'.
 
 Confirm that this is true.
@@ -77,8 +77,7 @@ awk -F "," 'NR < 10 { print $2 }' diamonds_raw.csv
 ```
 
 In English, this is: 'Columns are separated by a comma.
-For every line with a line number less than 10, 
+For every line with a line number less than 10,
 print the seconds column's value'.
 
 Confirm that this is true.
-

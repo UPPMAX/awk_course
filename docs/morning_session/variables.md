@@ -89,11 +89,11 @@ wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/d
 
 to download a file called `diamonds_no_header.tsv`.
 
-This file is a tab-separated file about diamonds and 
+This file is a tab-separated file about diamonds and
 is part of the `ggplot2` R package.
 
- * [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
- * [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
+* [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
+* [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
 
@@ -114,12 +114,12 @@ index|name   |description
 
 Using `awk` only:
 
-- show the number of diamonds in the dataset
-- show the number of columns in the dataset
-- show the lowest price of all the diamonds
-- show the average price of all the diamonds
-- show the average price of all the diamonds with an ideal cut
-- show the total weight of all diamonds combined in kilos, 
+* show the number of diamonds in the dataset
+* show the number of columns in the dataset
+* show the lowest price of all the diamonds
+* show the average price of all the diamonds
+* show the average price of all the diamonds with an ideal cut
+* show the total weight of all diamonds combined in kilos,
   1 carat is 0.0002 kilo
-- show the prices of all the diamonds together, in Swedish kroner.
+* show the prices of all the diamonds together, in Swedish kroner.
   Assume 1 US dollar is 10.47 Swedish kroner

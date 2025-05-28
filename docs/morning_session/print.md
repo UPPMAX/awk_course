@@ -185,8 +185,8 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk '{ print $2 * 28.349523125, "gram" }' coins.txt
 ```
 
-In English, this is: 'For every line, 
-show the second column multiplied by 28.349523125 
+In English, this is: 'For every line,
+show the second column multiplied by 28.349523125
 and add the word 'gram' (separated by a whitespace)'.
 
 Confirm that this is true.
@@ -203,11 +203,11 @@ wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/d
 
 to download a file called `diamonds_no_header.tsv`.
 
-This file is a tab-separated file about diamonds and 
+This file is a tab-separated file about diamonds and
 is part of the `ggplot2` R package.
 
- * [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
- * [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
+* [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
+* [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
 
@@ -228,17 +228,17 @@ index|name   |description
 
 Using `awk` only:
 
-- show the number of diamonds in the dataset (in any clumsy way!)
-- show the number of columns in the dataset (in any clumsy way!)
-- show the prices of the diamonds in US dollars
-- show the prices of the diamonds in Swedish kroner, 
+* show the number of diamonds in the dataset (in any clumsy way!)
+* show the number of columns in the dataset (in any clumsy way!)
+* show the prices of the diamonds in US dollars
+* show the prices of the diamonds in Swedish kroner,
   assume 1 US dollar is 10.47 Swedish kroner
-- show the weight of the diamonds in kilo, 1 carat is 0.0002 kilo
+* show the weight of the diamonds in kilo, 1 carat is 0.0002 kilo
 
 Answer the question:
 
-- At the start of this session, **two ** ways to print all lines
+* At the start of this session, **two** ways to print all lines
   were shown (`awk '{ print }' coins.txt` and `awk '{ print $0 }' coins.txt`).
   Although they do exactly the same thing, why were both ways shown?
-- All the AWK commands are put in single quotes. Why would that be?
+* All the AWK commands are put in single quotes. Why would that be?
   Would double quotes work too?

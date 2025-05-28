@@ -28,8 +28,6 @@ of a text (including none or all).
 
 Here we use AWK to select lines that follow a simple regular expression.
 
-
-
 ## Exercises
 
 ### Exercise 1: a filter

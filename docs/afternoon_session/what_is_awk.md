@@ -42,7 +42,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 - [The Wikipedia 'AWK' page](https://en.wikipedia.org/wiki/AWK)
 
-Search the page to determine which of these statements below is true, 
+Search the page to determine which of these statements below is true,
 and why they are true/false:
 
 - (1) AWK is a programming language
@@ -161,4 +161,4 @@ and why they are true/false:
 
 ## Links
 
- * Book: [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)
+- Book: [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)

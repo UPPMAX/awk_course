@@ -1,7 +1,7 @@
 # AWK course
 
-This module introduces the fundamentals of the AWK language. 
-    
+This module introduces the fundamentals of the AWK language.
+
 ## Schedule
 
 Time          | Topic
@@ -38,7 +38,6 @@ flowchart TD
   filtering_on_regex --> |needs| filtering_on_values
 ```
 
-
 Description              |Syntax
 -------------------------|---------------------
 Do an action             |`{ [action] }`
@@ -50,5 +49,5 @@ Actions at begin and end |`BEGIN { [action]} [condition] { [action] } END { [act
 
 ## Links
 
- * [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)
- * [To awk or not](https://pmitev.github.io/to-awk-or-not)
+* [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)
+* [To awk or not](https://pmitev.github.io/to-awk-or-not)

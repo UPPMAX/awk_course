@@ -72,7 +72,7 @@ This is used to compare the two setups.
 
 ![](8.png)
 
-- Day two was a bit chaotic - lacking clear objectives - I think we needed the tasks spoonfed to us a little more. Especially non-bioinformaticians. 
+- Day two was a bit chaotic - lacking clear objectives - I think we needed the tasks spoonfed to us a little more. Especially non-bioinformaticians.
 - It all seemed very improvised and not well prepared, which made it very tedious, frustrating and boring. Particularly on the first day, the instructor gave the impression that he didn't know what the course material was about. It was also presented rather chaotically.
 - The internet in the room was difficult to use
 
@@ -80,8 +80,7 @@ This is used to compare the two setups.
 
 ![](9.png)
 
-- All the teachers were clearly incredibly knowledgeable in the field, and explained things well. 
+- All the teachers were clearly incredibly knowledgeable in the field, and explained things well.
 - Task of the second day, once the explanation was a bit better.
 - lots of TA/teachers to support the students, and also they were good
 - I really enjoyed coming on site and being able to go over the material and ask questions face to face
-

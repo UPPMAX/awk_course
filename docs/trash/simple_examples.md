@@ -37,10 +37,10 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
     - Do a simple match
     - Use the caret as a matcher
 
-Start at the top of ['To Awk Or Not'](https://pmitev.github.io/to-awk-or-not/) 
+Start at the top of ['To Awk Or Not'](https://pmitev.github.io/to-awk-or-not/)
 of the page '1. Simple examples', until the first question.
 
-Make sure to run the first example: `awk '/gold/' coins.txt`, 
+Make sure to run the first example: `awk '/gold/' coins.txt`,
 to ensure you can actually use `awk`.
 
 ???- question "I get an error, how do I fix it?"
@@ -101,8 +101,8 @@ Answer the question.
 
 Continue reading until the next question:
 
-> Can you find all "silver" coins older than 1986? 
-> One can use grep to filter the silver coins and pipe the result to awk 
+> Can you find all "silver" coins older than 1986?
+> One can use grep to filter the silver coins and pipe the result to awk
 > or do it all together in awk.
 
 Answer the question.
@@ -129,7 +129,7 @@ Answer the question.
 
     - Use the `awk` `!` operator
 
-> Unfortunately, awk does not have a way to print/address all fields after or before a selected one. 
+> Unfortunately, awk does not have a way to print/address all fields after or before a selected one.
 > How can one print all remaining fields?
 
 ???- info "Solution"
@@ -158,8 +158,8 @@ Answer the question.
 
     - Rehearse that `awk` works on tab-separated values
 
-> A tab separated version 'coins.tab' is more appropriate in such cases 
-> and rather common, for the same reason, 
+> A tab separated version 'coins.tab' is more appropriate in such cases
+> and rather common, for the same reason,
 > in many bioinformatics file formats `gff`|`bed`|`sam`|`vcf`.
 
 Do you agree?
@@ -172,4 +172,4 @@ Do you agree?
 
 ## Links
 
- * [Book 'CLI text processing with GNU awk'](https://learnbyexample.github.io/learn_gnuawk/)
+* [Book 'CLI text processing with GNU awk'](https://learnbyexample.github.io/learn_gnuawk/)

@@ -21,7 +21,7 @@
 
 ## Overview
 
-Most UNIX (i.e. Linux and MacOS) distributions includes `awk` 
+Most UNIX (i.e. Linux and MacOS) distributions includes `awk`
 as it is a [tool](https://en.wikipedia.org/wiki/List_of_POSIX_commands)
 that is part of [a common standard for what operating systems should have](https://en.wikipedia.org/wiki/Single_UNIX_Specification).
 The UPPMAX clusters, running Linux, also have `awk`.
@@ -188,11 +188,11 @@ The pipe symbol `|` is used in a UNIX pipeline.
 Do, in a terminal:
 
 - `echo hello world | rev`
-- `echo hello world | rev | rev` 
-- `cat why_awk.txt | wc` 
-- `cat why_awk.txt | rev` 
-- `cat why_awk.txt | wc | rev` 
-- `cat -n why_awk.txt | rev` 
-- `rev --version | rev` 
+- `echo hello world | rev | rev`
+- `cat why_awk.txt | wc`
+- `cat why_awk.txt | rev`
+- `cat why_awk.txt | wc | rev`
+- `cat -n why_awk.txt | rev`
+- `rev --version | rev`
 
 Express in your own words: what does the pipe symbol `|` do?

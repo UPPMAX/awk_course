@@ -39,7 +39,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
 Read:
 
-- [The Wikipedia 'AWK' page, 'Examples'](https://en.wikipedia.org/wiki/AWK#Examples), 
+- [The Wikipedia 'AWK' page, 'Examples'](https://en.wikipedia.org/wiki/AWK#Examples),
   section 'Hello, World!' only
 
 Then do:
@@ -53,7 +53,7 @@ Then do:
 
     - to run AWK from the command-line
 
-Creating a script for every AWK use is tedious. 
+Creating a script for every AWK use is tedious.
 Instead, we will be using AWK one-liners in the terminal:
 
 - run the text of the AWK script as a oneliner, using single-quotes
@@ -137,4 +137,4 @@ What does `/is/` do?
 
 ## Links
 
- * Book: [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)
+- Book: [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)

@@ -123,4 +123,4 @@ complex then detecting lines with a text.
 
 ## Links
 
- * [Book 'CLI text processing with GNU awk'](https://learnbyexample.github.io/learn_gnuawk/)
+- [Book 'CLI text processing with GNU awk'](https://learnbyexample.github.io/learn_gnuawk/)

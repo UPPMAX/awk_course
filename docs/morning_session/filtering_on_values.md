@@ -52,7 +52,7 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk '$1 == "gold" { print }' coins.txt
 ```
 
-In English, this is: 'For every line where the first column matches `gold`, 
+In English, this is: 'For every line where the first column matches `gold`,
 show the whole line'.
 
 Confirm that this is true.
@@ -65,7 +65,7 @@ In a terminal, in the same folder as where the data is downloaded, do:
 awk '$2 < 1.0 { print }' coins.txt
 ```
 
-In English, this is: 'For every line where the second column is less than one, 
+In English, this is: 'For every line where the second column is less than one,
 show the whole line'
 
 Confirm that this is true.
@@ -129,9 +129,9 @@ awk '$1 == "gold" { print "Gold:", $0 } $2 < 1.0  { print "Light:" $0 }' coins.t
 ```
 
 In English, this is: 'For every line where the first column matches `gold`,
-print 'Gold:' and the line. 
+print 'Gold:' and the line.
 For every line where the second column is less than 1.0,
-print 'Light:' and the line. 
+print 'Light:' and the line.
 
 Confirm that this is true.
 
@@ -147,11 +147,11 @@ wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/d
 
 to download a file called `diamonds_no_header.tsv`.
 
-This file is a tab-separated file about diamonds and 
+This file is a tab-separated file about diamonds and
 is part of the `ggplot2` R package.
 
- * [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
- * [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
+* [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/diamonds.csv)
+* [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
 
@@ -172,9 +172,9 @@ index|name   |description
 
 Using `awk` only:
 
-- show the cut of the diamonds that have a price above $18000 USD
-- show the price of the diamonds that have a fair cut and the worst color
-- show the line number of the diamonds that have a price below $400 USD
+* show the cut of the diamonds that have a price above $18000 USD
+* show the price of the diamonds that have a fair cut and the worst color
+* show the line number of the diamonds that have a price below $400 USD
 
 ### Exercise 3: printing a complete dataset
 
@@ -190,22 +190,22 @@ to download a file called `diamonds.tsv`.
 
 It is the same dataset as used earlier.
 However, it has a first line, which is called a header,
-which describes the data. 
+which describes the data.
 
 #### Explore the data
 
 Using `awk` only:
 
-- show the number of lines, in any clumsy way
-- show the number of columns, in any clumsy way
-- show only the first line
-- show only the first ten lines
-- show the prices of all diamonds, while skipping the header
-- show the cut of the diamonds that have a price above $18000 USD, while skipping the header
-- show the price of the diamonds that have a fair cut and the worst color, while skipping the header
-- show the line number of the diamonds that have a price below $400 USD, while skipping the header
+* show the number of lines, in any clumsy way
+* show the number of columns, in any clumsy way
+* show only the first line
+* show only the first ten lines
+* show the prices of all diamonds, while skipping the header
+* show the cut of the diamonds that have a price above $18000 USD, while skipping the header
+* show the price of the diamonds that have a fair cut and the worst color, while skipping the header
+* show the line number of the diamonds that have a price below $400 USD, while skipping the header
 
 Explain:
 
-- although this dataset has a header, in not all exercises `NR > 1` was needed.
+* although this dataset has a header, in not all exercises `NR > 1` was needed.
   When can `NR > 1` be omitted safely?

@@ -1,6 +1,6 @@
 # AWK course
 
-This module introduces the fundamentals of the AWK language. 
+This module introduces the fundamentals of the AWK language.
 
 !!! info "Content"
 
@@ -129,6 +129,6 @@ flowchart TD
 
 ## Links
 
- * [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/): a book we use
- * [To awk or not](https://pmitev.github.io/to-awk-or-not): course material we use
- * [AWK cheat sheet](https://catonmat.net/ftp/awk.cheat.sheet.txt)
+- [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/): a book we use
+- [To awk or not](https://pmitev.github.io/to-awk-or-not): course material we use
+- [AWK cheat sheet](https://catonmat.net/ftp/awk.cheat.sheet.txt)

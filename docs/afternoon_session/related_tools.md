@@ -95,7 +95,7 @@ Then, in a terminal, do:
 
 - `man cut`
 - `cut -d "," -f 2 diamonds_raw.csv`
-- `cat diamonds_raw.csv | cut -d "," -f 2 `
+- `cat diamonds_raw.csv | cut -d "," -f 2`
 
 Express in your own words: what does `cut` do?
 
@@ -196,6 +196,5 @@ Then, in a terminal, do:
 - `wc pg1787.txt --lines`
 - `wc pg1787.txt --words`
 - `awk '/Hamlet/' pg1787.txt | wc --lines`
-
 
 Express in your own words: what does `wc` do?
