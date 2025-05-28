@@ -58,7 +58,7 @@ Negative feedback that I will respond to:
 
 I claim:
 
-```
+```text
 There is no resource on AWK that is
 - (1) free
 - (2) online
