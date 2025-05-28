@@ -143,7 +143,7 @@ Do:
     You should never use C if you can do it with a script;
     You should never use a script if you can do it with awk;
     Never use awk if you can do it with sed;
-    Never use sed if you can do it with grep." 
+    Never use sed if you can do it with grep."
 
 ```
 

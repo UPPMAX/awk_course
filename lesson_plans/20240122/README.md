@@ -59,7 +59,7 @@ Negative feedback that I will respond to:
 I claim:
 
 ```
-There is no resource on AWK that is 
+There is no resource on AWK that is
 - (1) free
 - (2) online
 - (3) has exercises

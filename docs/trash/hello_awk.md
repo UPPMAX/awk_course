@@ -65,9 +65,9 @@ What does the AWK code do?
 !!! tip "Use a semicolon to put two statements on one line"
 
     In this script, the `print` statement
-    and the `exit` statement have their own lines. 
+    and the `exit` statement have their own lines.
 
-    To put these on the same line, 
+    To put these on the same line,
     use a semicolon (`;`).
 
 ???- info "Solution"

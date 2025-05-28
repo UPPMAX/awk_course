@@ -79,20 +79,20 @@ and why they are true/false:
 
     - (5) AWK works on images
 
-    No: AWK works best on text files. 
+    No: AWK works best on text files.
 
-    However, some image files, such as SVG, are text-based. 
+    However, some image files, such as SVG, are text-based.
     This means that AWK *can* work on those images.
 
     - (6) AWK works on `.docx` files
 
-    No: AWK works best on text files. A `.docx` files is zipped, 
+    No: AWK works best on text files. A `.docx` files is zipped,
     hence has binary data
 
     - (7) The programming language AWK can be spelled as Awk too
 
     No. Where 'AWK' means the programming language, 'Awk'
-    is used in a context with something else. 
+    is used in a context with something else.
     For example, 'GNU Awk' is the name for the GNU implementation of AWK.
     As GNU Awk is the most used AWK interpreter, it is sometimes called
     Awk (i.e. without 'GNU' in front of it). In that case too, 'Awk' is the
@@ -101,7 +101,7 @@ and why they are true/false:
     - (8) The programming language AWK can be spelled as `awk` too
 
     No. Where 'AWK' means the programming language, `awk`
-    is the name of a program called `awk`, 
+    is the name of a program called `awk`,
     which is an AWK interpreter
 
     This graph puts it all into an overview:
@@ -144,7 +144,7 @@ and why they are true/false:
         interpreted_language --> |is run by| interpreter
         interpreted_language <--> |is not| compiled_language
         awk --> |is a| interpreter
-        gawk --> |is a| interpreter    
+        gawk --> |is a| interpreter
         gawk --> |is an abbreviation of| gnu_awk
 
         Julia --> |is a| interpreted_language

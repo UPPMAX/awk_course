@@ -46,7 +46,7 @@ flowchart TD
   awk --> |can do| split_data_in_columns
   cut --> |can do| split_data_in_columns
 
-  awk --> |can do| count 
+  awk --> |can do| count
   wc --> |can do| count
 
   awk --> |can do| replace

@@ -8,7 +8,7 @@ This module introduces the fundamentals of the AWK language.
 
     This repository is based on the material of <https://pmitev.github.io/to-awk-or-not/>
     and puts it into teaching cycles.
-    
+
 ## Schedule
 
 Time          | Topic
@@ -85,7 +85,7 @@ flowchart TD
     interpreted_language --> |is run by| interpreter
     interpreted_language <--> |is not| compiled_language
     awk --> |is a| interpreter
-    gawk --> |is a| interpreter    
+    gawk --> |is a| interpreter
     gawk --> |is an abbreviation of| gnu_awk
 
     AWK --> |is a| interpreted_language
@@ -119,7 +119,7 @@ flowchart TD
   awk --> |can do| split_data_in_columns
   cut --> |can do| split_data_in_columns
 
-  awk --> |can do| count 
+  awk --> |can do| count
   wc --> |can do| count
 
   awk --> |can do| replace

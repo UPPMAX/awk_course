@@ -1,9 +1,9 @@
 # Reflection
 
-* Course: AWK day 1
-* Teaching date: 2024-01-22
-* Teacher: Richel
-* Group size: around 20
+- Course: AWK day 1
+- Teaching date: 2024-01-22
+- Teacher: Richel
+- Group size: around 20
 
 I scheduled 3 days of preparation, which I know is enough time
 to prepare properly.
@@ -36,10 +36,10 @@ are ineffective.
 
 I did not ask if there were questions afterwards.
 
-* [ ] I think I should as for questions after presenting about myself,
+- [ ] I think I should as for questions after presenting about myself,
    as it allows the learner to (1) get comfortable asking questions,
-   (2) get to know me a little better (building rapport is one of the goals of the
-   presentation)
+   (2) get to know me a little better (building rapport is
+   one of the goals of the presentation)
 
 > Repeat to turn on cameras
 
@@ -48,7 +48,8 @@ About three fourths of the learners were visible at this point
 > Poll: Who knows what grep is?
 
 I used the Zoom 'Reaction' tool to make all learners
-show 'Yes' or 'No'. I repeated the question two or three times ('Who knows what grep is?'),
+show 'Yes' or 'No'. I repeated the question two or three times
+('Who knows what grep is?'),
 showing 'Yes' while saying 'Yes, I know what grep is' and showing 'No'
 while saying 'No, I have no idea what grep is'. I asked the last learners
 to pick a Yes/No and counted.
@@ -69,7 +70,7 @@ One in four learners knew what sed is.
 
 I showed the overviews of both morning and afternoon session.
 
-* [ ] I feel that 'morning' and 'afternoon' are misnomers,
+- [ ] I feel that 'morning' and 'afternoon' are misnomers,
    as I do not care about the exact time of teaching content.
    There was a learner that explicitly asked for this after lunch:
    'Should we continue with our exercises, or move to the afternoon
@@ -81,7 +82,8 @@ It was time to start the first teaching cycle:
 
 > Ask to associate on 'AWK is'
 
-The learners had a good idea that AWK is an interpreted language to work on text.
+The learners had a good idea that AWK is an interpreted language
+to work on text.
 
 After this, I showed the exercise first, asked for questions,
 then discussed the exercise procedure. There again, I asked for questions.
@@ -103,7 +105,8 @@ The helpers went into the breakout rooms and would come back later to report.
 Everything worked as planned:
 the learners worked fruitfully in group rooms,
 came back when done, helped in other rooms when asked,
-and breakout rooms were closed ruthlessly at the moment when most learners were done.
+and breakout rooms were closed ruthlessly
+at the moment when most learners were done.
 I asked multiple learners about how the exercise workflow feels and works
 out and there was only positive reactions. Sure, I realize that there is
 a bias for being positive here :-)
@@ -120,14 +123,15 @@ they can teach misinformation.
 
 I have been searching the literature:
 
-* Question: is peer teaching a good thing?
-   [Bene & Bergus, 2014] show a study where they compare
-   learning with learning and teaching,
-   which has an Effect Size of 2.1 [Gregory et al, 2011]. This is a
-   a massive effect size (e.g. homework has 0.29).
-* Checking [Wikipedai's Computer-supported collaborative learning's teacher roles](https://en.wikipedia.org/wiki/Computer-supported_collaborative_learning#Teacher_roles)
-   find that CSCL has an effect size of 0.51, which would be 47 on the 150 item
-   list by John Hattie
+- Question: is peer teaching a good thing?
+  [Bene & Bergus, 2014] show a study where they compare
+  learning with learning and teaching,
+  which has an Effect Size of 2.1 [Gregory et al, 2011]. This is a
+  a massive effect size (e.g. homework has 0.29).
+- Checking
+  [Wikipedia's Computer-supported collaborative learning's teacher roles](https://en.wikipedia.org/wiki/Computer-supported_collaborative_learning#Teacher_roles)
+  find that CSCL has an effect size of 0.51, which would be 47 on the 150 item
+  list by John Hattie
 
 I asked ChatGPT about the relevant of peer teaching and learners teaching
 misinformation. ChatGPT cited some literature and claimed that it is
@@ -139,21 +143,24 @@ feedback. As I do provide feedback, I feel unworried to let learners teach.
 
 During Day 2, I feel that the learners did not seem to be
 ready to solve the problem, as they had not learned:
-* Multiple files
-* `FRN`
-* For loops using a counter
-* 2D associative arrays
-* the `split` functions
-* `next`
+
+- Multiple files
+- `FRN`
+- For loops using a counter
+- 2D associative arrays
+- the `split` functions
+- `next`
 
 An open question is (1) (again) did the teaching cover too little
 topics, (2) should the exercise be simplified?
 
 My feeling is that the exercise should be simplified, because
-* the exercise does not make AWK shine, instead this is where Tidyverse/pandas shine instead
-* the exercise has too many biological terms, instead a more general
+
+- the exercise does not make AWK shine,
+  instead this is where Tidyverse/pandas shine instead
+- the exercise has too many biological terms, instead a more general
   research should be done
-* the data files in the exercise are big: it is unimportant to have 4GBs
+- the data files in the exercise are big: it is unimportant to have 4GBs
   of data, instead settle for files that are 1 MB max
 
 Or, alternatively, the second day should start
@@ -161,5 +168,8 @@ with teaching the things that the learners will need.
 
 ## References
 
-* [Bene & Bergus, 2014] Bene, Kristen L., and George Bergus. "When learners become teachers." Fam Med 46.10 (2014): 783-7.
-* [Gregory et al, 2011]Gregory, Alexander, et al. "Both preparing to teach and teaching positively impact learning outcomes for peer teachers." Medical teacher 33.8 (2011): e417-e422.
+- [Bene & Bergus, 2014] Bene, Kristen L., and George Bergus.
+  "When learners become teachers." Fam Med 46.10 (2014): 783-7.
+- [Gregory et al, 2011]Gregory, Alexander, et al.
+  "Both preparing to teach and teaching positively impact learning outcomes
+  for peer teachers." Medical teacher 33.8 (2011): e417-e422.
