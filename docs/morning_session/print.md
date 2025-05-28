@@ -20,10 +20,10 @@
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
 ## Overview
 
@@ -65,7 +65,7 @@ index|description
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print }' coins.txt
 ```
 
@@ -77,7 +77,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $0 }' coins.txt
 ```
 
@@ -89,7 +89,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $1 }' coins.txt
 ```
 
@@ -101,7 +101,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $1 $2 }' coins.txt
 ```
 
@@ -113,7 +113,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $1, $2 }' coins.txt
 ```
 
@@ -126,7 +126,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print NF }' coins.txt
 ```
 
@@ -138,7 +138,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $NF }' coins.txt
 ```
 
@@ -150,7 +150,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print NR }' coins.txt
 ```
 
@@ -165,7 +165,7 @@ One ounce is 28.349523125 gram.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $2 * 28.349523125 }' coins.txt
 
 ```
@@ -181,7 +181,7 @@ One ounce is 28.349523125 gram.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $2 * 28.349523125, "gram" }' coins.txt
 ```
 
@@ -197,7 +197,7 @@ Confirm that this is true.
 
 In a terminal, do:
 
-```
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds_no_header.tsv
 ```
 

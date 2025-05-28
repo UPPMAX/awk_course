@@ -6,8 +6,12 @@ A nicely-rendered website of this repo is at <https://richelbilderbeek.github.io
 
 ## Files used by continuous integration scripts
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Filename                           |Descriptions
 -----------------------------------|------------------------------------------------------------------------------------------------------
 [mlc_config.json](mlc_config.json) |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
 [.spellcheck.yml](.spellcheck.yml) |Configuration of the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
 [.wordlist.txt](.wordlist.txt)     |Whitelisted words for the spell checker, use `pyspelling -c .spellcheck.yml` to do spellcheck locally
+
+<!-- markdownlint-enable MD013 -->

@@ -50,7 +50,7 @@ to download a file called `coins.txt`.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'BEGIN {print "There I go!" }' coins.txt
 ```
 
@@ -62,7 +62,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'BEGIN {print "Coin minting years:" } { print $3 }' coins.txt
 ```
 
@@ -75,7 +75,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'END {print "Done!" }' coins.txt
 ```
 
@@ -87,7 +87,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ print $0 } END { print "Done!" }' coins.txt
 ```
 
@@ -99,7 +99,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'BEGIN { print "Start!" } { print $0 } END { print "Done!" }' coins.txt
 ```
 
@@ -111,7 +111,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'BEGIN { print "Start!" } $1 == "gold" { print $0 } END { print "Done!" }' coins.txt
 ```
 

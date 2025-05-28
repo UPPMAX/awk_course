@@ -12,10 +12,10 @@
 
     Lesson plan:
 
-    * 5 mins: prior knowledge
-    * 5 mins: presentation
-    * 15 mins: challenge
-    * 5 mins: feedback
+    - 5 mins: prior knowledge
+    - 5 mins: presentation
+    - 15 mins: challenge
+    - 5 mins: feedback
 
 ## Overview
 
@@ -24,7 +24,7 @@ for example, when summing values
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -32,21 +32,21 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - experience variables
 
-#### Download the data
+#### 1.1. Download the data
 
 In a terminal, do:
 
-```
+```bash
 wget https://pmitev.github.io/to-awk-or-not/data/coins.txt
 ```
 
 to download a file called `coins.txt`.
 
-#### Sum
+#### 1.2. Sum
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '{ sum = sum + $2 } END { print sum }' coins.txt
 ```
 
@@ -55,11 +55,11 @@ to the variable called `sum`. In the end, print the value of sum.
 
 Confirm that this is true.
 
-#### Get the maximum
+#### 1.3. Get the maximum
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '$2 > max { max = $2 } END { print max }' coins.txt
 ```
 
@@ -79,13 +79,17 @@ Confirm that this is true.
 
 ### Exercise 2: explore data
 
-#### Download the data
+#### 2.1. Download the data
 
 In a terminal, do:
 
-```
+<!-- markdownlint-disable MD013 --><!-- URL cannot be split up over lines, hence will break 80 characters per line -->
+
+```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 to download a file called `diamonds_no_header.tsv`.
 
@@ -96,6 +100,8 @@ is part of the `ggplot2` R package.
 * [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 index|name   |description
 -----|-------|------------------------------------------------------------------
@@ -110,7 +116,9 @@ index|name   |description
 9    |y      |width in mm (0--58.9)
 10   |z      |depth in mm (0--31.8)
 
-#### Explore the data
+<!-- markdownlint-enable MD013 -->
+
+#### 2.2 Explore the data
 
 Using `awk` only:
 

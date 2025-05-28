@@ -48,7 +48,7 @@ to download a file called `coins.txt`.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '$1 == "gold" { print }' coins.txt
 ```
 
@@ -61,7 +61,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '$2 < 1.0 { print }' coins.txt
 ```
 
@@ -74,7 +74,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'NR == 1 { print }' coins.txt
 ```
 
@@ -86,7 +86,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk 'NR > 1 { print }' coins.txt
 ```
 
@@ -98,7 +98,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '$1 == "gold" && $2 < 1.0 { print }' coins.txt
 ```
 
@@ -111,7 +111,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '$1 == "gold" || $2 < 1.0 { print }' coins.txt
 ```
 
@@ -124,7 +124,7 @@ Confirm that this is true.
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
-```
+```bash
 awk '$1 == "gold" { print "Gold:", $0 } $2 < 1.0  { print "Light:" $0 }' coins.txt
 ```
 
