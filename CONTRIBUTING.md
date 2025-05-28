@@ -4,7 +4,7 @@ Awesome! Thanks for reading this!
 
 In general, I will accept all Pull Requests, if:
 
-- The content helps achieve [the goal of this repository](faq.md), such as
+- The content helps achieve the goal of this repository, such as
   - adding additional solutions
   - clarify text
   - fix typos
@@ -12,4 +12,4 @@ In general, I will accept all Pull Requests, if:
 
 ## Branching policy
 
-Only use `master`.
+Only use `main`.
