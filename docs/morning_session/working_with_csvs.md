@@ -55,7 +55,7 @@ print the first column's value'.
 
 Confirm that this is true if the columns are separated by a tab.
 
-#### mix between string and values with a comma as a seperator
+#### mix between string and values with a comma as a separator
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
