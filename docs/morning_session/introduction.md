@@ -6,7 +6,7 @@
 
 !!!- info "Learning outcomes"
 
-    * Use a filter
+    - Use a filter
 
 Read of [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/):
 
@@ -20,7 +20,7 @@ Answer these questions of that same chapter:
 
 !!!- info "Learning outcomes"
 
-    * Rehearse using a filter
+    - Rehearse using a filter
 
 Read of [To awk or not](https://pmitev.github.io/to-awk-or-not):
 
