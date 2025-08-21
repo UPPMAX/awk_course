@@ -200,8 +200,8 @@ to download a file called `mpg.csv.csv`.
 This file is a tab-separated file about diamonds and
 is part of the `ggplot2` R package.
 
-* [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/mpg.csv)
-* [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
+- [Raw data](https://raw.githubusercontent.com/tidyverse/ggplot2/main/data-raw/mpg.csv)
+- [Data description](https://ggplot2.tidyverse.org/reference/diamonds.html)
 
 The dataset has the following columns:
 
@@ -227,22 +227,22 @@ Index|Column name   |Description
 
 Using `awk` only:
 
-* show if the data has a header yes/no
-* show the number of cars in the dataset
-* show the number of columns in the dataset
-* show all the car manufacturers' names
-* per car manufacturer, show the number of cars it produces
-* show the lowest city miles per gallon
-* show the highest city miles per gallon, in city miles per liter.
+- show if the data has a header yes/no
+- show the number of cars in the dataset
+- show the number of columns in the dataset
+- show all the car manufacturers' names
+- per car manufacturer, show the number of cars it produces
+- show the lowest city miles per gallon
+- show the highest city miles per gallon, in city miles per liter.
   Assume a gallon, is a US gallon. A US gallon is 3.785411784 liter
-* find the type (i.e. in the last column) of car
+- find the type (i.e. in the last column) of car
   that spends the least fuel on the highway
-* imagine you have each of these cars once. You want each of them to
+- imagine you have each of these cars once. You want each of them to
   drive one city mile. How much gallons of fuel do you need?
-* imagine you have each of these cars once. You want each of them to
+- imagine you have each of these cars once. You want each of them to
   drive one city mile. How much gallons of each type of fuel do you need?
 
 Think:
 
-* There are multiple way to increase an element in an array by one.
+- There are multiple way to increase an element in an array by one.
   Why so many? Is there a difference?

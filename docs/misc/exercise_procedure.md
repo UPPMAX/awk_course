@@ -11,7 +11,7 @@
 
     This assures everyone learns effectively: pairs are optimal.
 
-    > Ideally, all do the exercises on their computer, 
+    > Ideally, all do the exercises on their computer,
     > yet derive at a shared answer
 
     This assures everyone can give a answer that is not personal.

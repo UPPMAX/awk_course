@@ -53,5 +53,5 @@ Actions at begin and end |`BEGIN { [action]} [condition] { [action] } END { [act
 
 ## Links
 
-* [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)
-* [To awk or not](https://pmitev.github.io/to-awk-or-not)
+- [CLI text processing with GNU awk](https://learnbyexample.github.io/learn_gnuawk/)
+- [To awk or not](https://pmitev.github.io/to-awk-or-not)
