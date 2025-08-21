@@ -59,7 +59,7 @@ flowchart TD
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: `echo`
 
@@ -87,7 +87,8 @@ Do, in a terminal:
 Answer the following questions:
 
 - `echo` can create output that spans multiple lines yes/no
-- When putting a newline in a string, the type of quotes (i.e. single or double) matters yes/no
+- When putting a newline in a string,
+  the type of quotes (i.e. single or double) matters yes/no
 
 Express in your own words: what does `echo` do?
 
@@ -119,7 +120,8 @@ Do, in a terminal:
 Answer the following questions:
 
 - `printf` can create output that spans multiple lines yes/no
-- When putting a newline in a string, the type of quotes (i.e. single or double) matters yes/no
+- When putting a newline in a string,
+  the type of quotes (i.e. single or double) matters yes/no
 
 Express in your own words: what does `printf` do?
 
@@ -135,7 +137,10 @@ Read:
 
 Do:
 
-- create a file called `why_awk.txt` with the following content (from [here](https://web.archive.org/web/20160324050308/http://awk.info/?whygawk)):
+- create a file called `why_awk.txt` with the following content
+  (from
+  [this post from the AWK archives](https://web.archive.org/web/20160324050308/http://awk.info/?whygawk)
+  ):
 
 ```title="why_awk.txt"
  "The Enlightened Ones say that....

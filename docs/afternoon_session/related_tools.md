@@ -71,7 +71,7 @@ part of pipelines.
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: `cut`
 

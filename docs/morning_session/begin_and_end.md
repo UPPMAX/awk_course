@@ -28,7 +28,7 @@ Here we do things at the start and end of an AWK script.
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -36,7 +36,7 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - experience the `BEGIN` and `END` blocks
 
-#### Download the data
+#### 1.1. Download the data
 
 In a terminal, do:
 
@@ -47,7 +47,7 @@ wget https://pmitev.github.io/to-awk-or-not/data/coins.txt
 
 to download a file called `coins.txt`.
 
-#### `BEGIN`
+#### 1.2. `BEGIN`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -59,7 +59,7 @@ In English, this is: 'At the start, print 'There I go!''.
 
 Confirm that this is true.
 
-#### `BEGIN` and a print
+#### 1.3. `BEGIN` and a print
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -72,7 +72,7 @@ then, for every line, print the third column.
 
 Confirm that this is true.
 
-#### `END`
+#### 1.4. `END`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -84,7 +84,7 @@ In English, this is: 'In the end, print 'Done!''.
 
 Confirm that this is true.
 
-#### `END` and a `print`
+#### 1.5. `END` and a `print`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -97,7 +97,7 @@ In the end, print 'Done!''.
 
 Confirm that this is true.
 
-#### `BEGIN` and `END` and a `print`
+#### 1.6. `BEGIN` and `END` and a `print`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -110,7 +110,7 @@ Then, for every line, print the line. In the end, print 'Done!''.
 
 Confirm that this is true.
 
-#### `BEGIN` and `END` and a condition and a `print`
+#### 1.7. `BEGIN` and `END` and a condition and a `print`
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -129,7 +129,7 @@ Confirm that this is true.
 
     - practice using the `BEGIN` and `END` blocks
 
-#### Download the data
+#### 2.1. Download the data
 
 In a terminal, do:
 
@@ -168,7 +168,7 @@ index|name   |description
 
 <!-- markdownlint-enable MD013 -->
 
-#### Explore the data
+#### 2.2. Explore the data
 
 Using `awk` only:
 

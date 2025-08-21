@@ -29,7 +29,8 @@ For example:
 - a common paper size is consists out of a capital A, B or C,
   followed by a number from 1 to and including 9,
   for example `A4`
-- [a Swedish personal identity number](https://en.wikipedia.org/wiki/Personal_identity_number_(Sweden)) ('personnummer')
+- [a Swedish personal identity number](https://en.wikipedia.org/wiki/Personal_identity_number_(Sweden))
+  ('personnummer')
   before 1980 *that is possibly valid* consists of 6 digits, a dash, and then 4 digits,
   for example `890201-3286`
 - A blood group is A or B or AB or O, with a plus or minus added for the Rhesus factor,
@@ -39,7 +40,7 @@ Knowing regular expressions allows us to search for patterns in a text.
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: practice regular expressions
 
@@ -96,7 +97,8 @@ Here is another website to practice with regular expressions:
 
 - Browse to <https://www.regextester.com/>
   to find a so-called 'anchor' for the end of the string
-- Try out this website: copy the text from 'Seven-letter words containing the word 'book''
+- Try out this website:
+  copy the text from 'Seven-letter words containing the word 'book''
   as is shown below. Use a word anchor to select all words ending with 'book'
 
 ```title="Seven-letter words containing the word 'book'"

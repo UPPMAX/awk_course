@@ -27,7 +27,7 @@ to find the (unique) values in a column and to create a tally.
 
 ## Exercises
 
-See the exercise procedure [here](../misc/exercise_procedure.md).
+See [the exercise procedure](../misc/exercise_procedure.md).
 
 ### Exercise 1: confirming things are true
 
@@ -35,23 +35,31 @@ See the exercise procedure [here](../misc/exercise_procedure.md).
 
     - experience variables
 
-#### Download the data
+#### 1.1. Download the data
 
 In a terminal, do:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim code one-liner cannot be split up over lines, hence will break 80 characters per line -->
 
 ```bash
 wget https://raw.githubusercontent.com/richelbilderbeek/awk_course/master/data/diamonds_no_header.tsv
 ```
 
+<!-- markdownlint-enable MD013 -->
+
 to download a file called `diamonds_no_header.tsv`.
 
-#### Write to and read from an associative array
+#### 1.2. Write to and read from an associative array
 
 In a terminal, in the same folder as where the data is downloaded, do:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim code one-liner cannot be split up over lines, hence will break 80 characters per line -->
 
 ```bash
 awk 'BEGIN { counts["ideal"] = 12345 } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 In English, this is: 'At the start, in the `counts` array, at element `ideal`,
 store the value `12345`. In the end, if the `counts` array, show the
@@ -59,13 +67,17 @@ value at element `ideal`.
 
 Confirm that this is true.
 
-#### Get a count
+#### 1.3. Get a count
 
 In a terminal, in the same folder as where the data is downloaded, do:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim code one-liner cannot be split up over lines, hence will break 80 characters per line -->
 
 ```bash
 awk '{ counts[$2] = counts[$2] + 1 } END { print counts["ideal"] }' diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 In English, this is: 'For every line, in the `counts` array,
 at the element in the second column, increase the value by one.
@@ -74,7 +86,7 @@ value at element `ideal`.
 
 Confirm that this is true.
 
-#### Get a count again
+#### 1.4. Get a count again
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -89,7 +101,7 @@ value at element `ideal`.
 
 Confirm that this is true.
 
-#### Get a count again again
+#### 1.5. Get a count again again
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -104,7 +116,7 @@ value at element `ideal`.
 
 Confirm that this is true.
 
-#### Get a count again again again
+#### 1.6. Get a count again again again
 
 In a terminal, in the same folder as where the data is downloaded, do:
 
@@ -119,13 +131,17 @@ value at element `ideal`.
 
 Confirm that this is true.
 
-#### Show all elements
+#### 1.7. Show all elements
 
 In a terminal, in the same folder as where the data is downloaded, do:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim code one-liner cannot be split up over lines, hence will break 80 characters per line -->
 
 ```bash
 awk '{ counts[$2]++ } END { for (count in counts) print count }' diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 In English, this is: 'For every line, in the `counts` array,
 at the element in the second column, increase the value by one.
@@ -133,13 +149,17 @@ In the end, show all elements of the array `counts`.
 
 Confirm that this is true.
 
-#### Show all values
+#### 1.8. Show all values
 
 In a terminal, in the same folder as where the data is downloaded, do:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim code one-liner cannot be split up over lines, hence will break 80 characters per line -->
 
 ```bash
 awk '{ counts[$2]++ } END { for (count in counts) print counts[count] }' diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 In English, this is: 'For every line, in the `counts` array,
 at the element in the second column, increase the value by one.
@@ -147,13 +167,17 @@ In the end, of all elements of the array `counts`, show their values.
 
 Confirm that this is true.
 
-#### Show all elements and values
+#### 1.9. Show all elements and values
 
 In a terminal, in the same folder as where the data is downloaded, do:
+
+<!-- markdownlint-disable MD013 --><!-- Verbatim code one-liner cannot be split up over lines, hence will break 80 characters per line -->
 
 ```bash
 awk '{ counts[$2]++ } END { for (count in counts) print count ": " counts[count] }' diamonds_no_header.tsv
 ```
+
+<!-- markdownlint-enable MD013 -->
 
 In English, this is: 'For every line, in the `counts` array,
 at the element in the second column, increase the value by one.
@@ -163,7 +187,7 @@ Confirm that this is true.
 
 ### Exercise 2: explore data
 
-#### Download the data
+#### 2.1. Download the data
 
 In a terminal, do:
 
@@ -181,6 +205,8 @@ is part of the `ggplot2` R package.
 
 The dataset has the following columns:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Index|Column name   |Description
 -----|--------------|-----------------
  1   |`manufacturer`|manufacturer name
@@ -195,7 +221,9 @@ Index|Column name   |Description
 10   |`fl`          |fuel type
 11   |`class`       |type of car
 
-#### Explore the data
+<!-- markdownlint-enable MD013 -->
+
+#### 2.2. Explore the data
 
 Using `awk` only:
 
@@ -207,7 +235,8 @@ Using `awk` only:
 * show the lowest city miles per gallon
 * show the highest city miles per gallon, in city miles per liter.
   Assume a gallon, is a US gallon. A US gallon is 3.785411784 liter
-* find the type (i.e. in the last column) of car that spends the least fuel on the highway
+* find the type (i.e. in the last column) of car
+  that spends the least fuel on the highway
 * imagine you have each of these cars once. You want each of them to
   drive one city mile. How much gallons of fuel do you need?
 * imagine you have each of these cars once. You want each of them to
